@@ -57,8 +57,9 @@ module Prelaunchr
 
     # Enable the asset pipeline
     #config.assets.enabled = true
-    config.assets.compile = true
-    config.serve_static_assets = true
+    #config.assets.compile = true
+    #config.serve_static_assets = true
+    config.assets.initialize_on_precompile = false
     
     #config.assets.paths << "#{Rails.root}/app/assets/images/email"
     #config.assets.paths << "#{Rails.root}/app/assets/images/home"
